@@ -44,7 +44,7 @@ import (
 )
 
 // #cgo LDFLAGS: -lglpk
-// #include <glpk.h>
+// #include "src/glpk.h"
 // #include <stdlib.h>
 import "C"
 
